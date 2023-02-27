@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+}
+
+/* NAV */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
