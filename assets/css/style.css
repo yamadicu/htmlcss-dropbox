@@ -9,11 +9,14 @@ li{
     display: inline-block;
 }
 
-ul{
+.inline-block{
     display: inline-block;
 }
-img{
-    display: inline-block;
+
+button{
+    padding: 2%;
+    background-color: rgb(18,107,253);
+    border: 0;
 }
 
 /* NAV */
@@ -23,3 +26,31 @@ nav{
     justify-content: space-between;
 }
 
+
+
+/* MAIN */
+
+main{
+    padding-inline: 20%;
+    background-color: rgb(180,208,231);
+}
+
+.introduzione{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+#paragrafo{
+    width: 80%;
+}
+
+#foto-1{
+    width: 100%;
+    position: relative;
+    top: 15%;
+}
+
+#prova{
+    display: block;
+}
