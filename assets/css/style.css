@@ -3,3 +3,141 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.vert-midd{
+    vertical-align: middle;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.bot-bg{
+    padding: 2%;
+    background-color: rgb(18,107,253);
+    border: 0;
+}
+
+.txt-white{
+    color: white;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.padding-left{
+    padding-left: 1em;
+}
+
+.block{
+    display: block;
+}
+/* NAV */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+div ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* MAIN */
+
+h1{
+    padding-top: 2%;  
+    padding-inline: 20%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.azzurro{
+    background-color: rgb(180,208,231);
+    height: 450px;
+}
+
+.introduzione{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-inline: 20%;
+}
+
+#paragrafo{
+    width: 80%;
+}
+
+#foto-1{
+    width: 90%;
+    position: relative;
+}
+
+#bott{
+    display: block;
+}
+
+
+/* PIANI BUSINNES */
+
+#piani{
+    padding-top: 10%;
+    padding-inline: 20%;
+}
+
+#bottoni{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna{
+    flex-basis: 30%;
+    border: 1px solid black;
+}
+
+.tipo-piano{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-body ul li{
+    list-style: none;
+    margin: 10px 0;
+    padding-left: 1em;
+}
+
+.durata{
+    display: block;
+    color: grey;
+}
+
+/* PIANO EXTRA */
+
+.team{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-inline: 20%;
+    position: relative;
+}
+
+#testo{
+    display: block;
+    margin-top: 50px;
+}
+
+.team-bot{
+    position: absolute;
+    right: 20px;
+}

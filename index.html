@@ -4,9 +4,335 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK PER ICONE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
+
+
 <body>
-    
+
+    <!-- BARRA DI NAVIGAZIONE -->
+    <nav>
+
+        <!-- PARTE SINISTRA -->
+        <div>    
+            <ul class="inline-block">
+                <li class="vert-midd"><img src="./assets/img/logo-small.png" alt="logo dropbox"></li>
+                <li>Perché Dropbox</li>
+                <li>Funzioni</li>
+                <li>Piani e Prezzi</li>
+            </ul>
+        </div>
+
+        <!-- PARTE DESTRA -->
+        <div>
+            <ul class="inline-block">
+                <li>Supporto</li>
+                <li>Contatta l'ufficio vendite</li>
+                <li>Accedi</li>
+                <li><button class="inline-block bot-bg txt-white" type="button">Inizia</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CREAZIONE MAIN -->
+    <main>
+
+        <!-- SEZIONE INTRODUTTIVA -->
+        <section class="azzurro">
+
+            <!-- titolo della pagina -->
+            <h1>Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
+
+            <!-- paragrafo introduttivo -->
+            <section class="introduzione">
+                <aside id="paragrafo" class="inline-block">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili allo stesso posto. Dropbox Businnes è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
+
+                    <br>
+
+                    <button id="bott" class="bot-bg txt-white" type="button">Inizia la tuo prova gratuita</button>
+
+                    <br>
+
+                    <p>Annulla in qualsiasi momento</p>
+
+                    <br>
+
+                    <i class="fa-solid fa-arrow-down icon"></i>
+
+                </aside>
+
+                <aside>
+                    <img id="foto-1" class="inline-block" src="./assets/img/jumbo.png" alt="immagine generale">
+                </aside>
+            </section>
+        </section>
+
+
+        <!-- PIANI DI BUSINNES -->
+        
+        <section id="piani">
+
+            <h2>Trova piano businnes che fa per te</h2>
+
+            <!-- BOTTONI RADIO -->
+            <div id="bottoni">
+                <div>
+                    <input type="radio" checked="checked">
+                    <label for="">Fattura annuale</label>
+                </div>
+                <div>
+                    <input type="radio" checked="checked">
+                    <label for="">Fattura mensile</label>
+                </div>
+            </div>
+
+            <!-- PIANI -->
+            <div class="card">
+
+                <!-- OPZIONE 1 DEL PIANO -->
+                <div class="colonna">
+
+                    <!-- TESTA DELLA CARD -->
+                    <div class="tipo-piano">
+
+                        <i class="fa-solid fa-user"></i>
+                        <span>singolo</span>
+
+                    </div>
+
+                    <!-- CORPO DELLA CARD -->
+                    <div class="card-body">
+
+                        <section class="padding-left">
+
+                            <h3>Professional</h3>
+                            <br>
+                            <span>&euro;12,00</span>
+                            <span class="durata">/mese</span>
+
+                        </section>
+                            
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-user"></i>
+                                <span>1 utente</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-folder"></i>
+                                <span>5 TB di spazio di archiviazione sicuro</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            </li>
+                        </ul>
+
+                        <!-- PARTE FINALE DELLA SCHEDA -->
+                        
+                        <section class="padding-left margin-top-20"> 
+
+                            <button type="button" class="bot-bg txt-white block">Prova gratis per 30 giorni</button>
+                            <br>
+                            <span>oppure <a href="#">acquista ora</a></span>
+                            <br>
+                            <div class="divisore"></div>
+                            <h4>Punti salienti del piano</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>invia fino a 100 GB con Dropbox Transfert</span>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+                            </ul>
+
+                        </section>
+                    </div>
+
+                </div>
+
+                <!-- OPZIONE 2 DEL PIANO -->
+                <div class="colonna">
+
+                    <!-- TESTA DELLA CARD -->
+                    <div class="tipo-piano">
+
+                        <i class="fa-solid fa-users"></i>
+                        <span>team</span>
+
+                    </div>
+
+                    <!-- CORPO DELLA CARD -->
+                    <div class="card-body">
+
+                        <section class="padding-left">
+
+                            <h3>Advance</h3>
+                            <br>
+                            <span>&euro;18,00</span>
+                            <span class="durata">/utente/mese</span>
+
+                        </section>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-users"></i>
+                                <span>3 o più utenti</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-folder"></i>
+                                <span>Tutto lo spazio di cui hai bisgno il tuo team</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                            </li>
+                        </ul>
+
+                        <!-- PARTE FINALE DELLA CARD -->
+                        <section class="padding-left margin-top-20"> 
+
+                            <button type="button" class="bot-bg txt-white block">Prova gratis per 30 giorni</button>
+                            <br>
+                            <span>oppure <a href="#">acquista ora</a></span>
+                            <br>
+                            <div class="divisore"></div>
+                            <h4>Punti salienti del piano</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Nessun limite di spazio per i file</span>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Possibilità diinserire nuovi membri del team</span>
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Gestione dei permessi in base ai ruoli</span>
+                                </li>
+                            </ul>
+
+                        </section>
+
+                    </div>
+                </div>
+
+                <!-- OPZINE 3 DEL PIANO -->
+                <div class="colonna">
+
+                    <!-- TESTA DEL PIANO -->
+
+                    <div class="tipo-piano">
+
+                        <i class="fa-solid fa-building"></i>
+                        <span>azienda</span>
+
+                    </div>
+
+                    <!-- CORPO DELLA CARD -->
+                    <div class="card-body">
+                        
+                        <section class="padding-left"> 
+
+                            <h3>Enterprise</h3>
+                            <br>
+                            <span>contattaci</span>
+                            <p>-</p>
+
+                        </section>
+                            
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-user"></i>
+                                <span>10 o più utenti</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-folder"></i>
+                                <span>Soluzioni personalizzabili per la tua azienda</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- PARTE INFERIORE DELLA SCHEDA -->
+                        
+                    <section class="padding-left margin-top-20 end-card"> 
+
+                        <button type="button" class="bot-bg txt-white block">Prova gratis per 30 giorni</button>
+                        <br>
+                        <span>oppure <a href="#">acquista ora</a></span>
+                        <br>
+                        <div class="divisore"></div>
+                        <h4>Punti salienti del piano</h4>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Cartelle offline anche su dispositivi mobili</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Servizio assistenza 24/h</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Possibilità di personalizzazione totale</span>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PIANO EXTRA -->
+        <section class="team">
+            <div class="tipo-piano">
+                <span><i class="fa-solid fa-building"></i>Team</span>
+            </div>
+            <section class="padding-left">
+
+                <button type="button" class="bot-bg team-bot txt-white">Contatta l'ufficio vendite</button>
+
+                <h3>Enterprise</h3>
+
+                <br>
+
+                <span><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
+
+                <span id="testo">Soluzioni personalizzabili e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</span>
+
+            </section>
+        </section>
+        
+    </main>
 </body>
 </html>
