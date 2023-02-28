@@ -34,6 +34,10 @@ li{
 .block{
     display: block;
 }
+
+.padding-inline-20{
+    padding-inline: 20%;
+}
 /* NAV */
 
 nav{
@@ -136,9 +140,35 @@ h1{
 #testo{
     display: block;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .team-bot{
     position: absolute;
     right: 20px;
+}
+
+/* PARTE FOTO */
+
+.pic-zone{
+    padding-top: 5%;
+}
+#img-partner{
+    float: left;
+    width: 60%;
+    padding-right: 5%;
+}
+
+#txt-foto{
+    float: rigth;
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+#bot-spec{
+    padding: 10px;
+    border: 1px solid grey;
+    display: block;
+    background-color: white;
+    margin-top: 20px;
 }
