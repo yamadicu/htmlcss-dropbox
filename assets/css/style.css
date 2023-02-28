@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.vert-midd{
-    vertical-align: middle;
+li{
+    list-style: none;
+    display: inline-block;
 }
 
 .inline-block{
