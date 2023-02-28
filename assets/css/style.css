@@ -171,4 +171,27 @@ h1{
     display: block;
     background-color: white;
     margin-top: 20px;
+    margin-bottom: 25%;
+}
+
+
+/* PER SAPERNE DI PIU' */
+
+#elenco-operazioni{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocco-immagini{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.immagine{
+    width: 100%;
+    display: flex;
 }
