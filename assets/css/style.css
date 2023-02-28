@@ -38,6 +38,13 @@ li{
 .padding-inline-20{
     padding-inline: 20%;
 }
+
+.padding-top{
+    padding-top: 5%;
+}
+.padding-bottom{
+    padding-bottom: 5%;
+}
 /* NAV */
 
 nav{
