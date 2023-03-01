@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.opacita:hover{
+    opacity: 0.5;
+}
+
 li{
     list-style: none;
     display: inline-block;
@@ -353,4 +357,78 @@ input[type="radio"]{
     background-color: white;
     margin-top: 20px;
     margin-bottom: 25%;
+}
+
+/* DOMANDE FREQUENTI */
+
+.domande{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.domande h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.risposta{
+    display: none;
+}
+
+.domanda{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.domanda:hover .risposta{
+    margin-top: 20px;
+    display: block;
+}
+
+
+
+summary{
+    font-weight: 'strong';
+    margin: 20px 0;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(17, 17, 17);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section aside ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer section aside ul li{
+    padding-top: 5px;
+}
+
+footer div{
+    margin-top: 50px;
+    height: 2px;
+    width: 100px;
+    background-color: whitesmoke;
+    display: block;
+}
+
+#lingua{
+    float: left;
+    padding-top: 10px;
+}
+
+#italiano{
+    padding-inline: 10px;
 }
